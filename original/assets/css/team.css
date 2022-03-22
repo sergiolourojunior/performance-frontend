@@ -1,0 +1,19 @@
+.team {
+    background-color: #EFEFEF;
+}
+.team .team-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.team .team-name {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-family: Comfortaa, 'sans-serif';
+    color: #212121;
+}
+.team .team-description {
+    color: #454545;
+    font-size: 14px;
+    font-style: italic;
+}

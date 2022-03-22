@@ -1,0 +1,35 @@
+.form-inline {
+    display: flex;
+    flex-direction: row;
+}
+.form-control {
+    border: solid 1px #CCC;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 6px 12px;
+    outline: none;
+    border-radius: 4px;
+    color: #333;
+    width: 100%;
+}
+.form-control:focus { border-color: #0094CF; }
+.form-control.invalid { border-color: red; }
+.btn {
+    background-color: #EFEFEF;
+    border: solid 1px #CCC;
+    color: #333;
+    border-radius: 4px;
+    padding: 6px 24px;
+    line-height: 24px;
+    max-height: 38px;
+    display: block;
+}
+.btn:hover {
+    cursor: pointer;
+    border-color: #999;
+}
+.form-inline .form-group {
+    width: 100%;
+    padding-right: 5px;
+}
+.form-inline .form-button { padding-left: 5px; }
